@@ -1,15 +1,3 @@
-# Ethereum Ticket Distribution Smart Contract
-Leveraging blockchain's ability to easily validate identity and identify ownership, this smart contract is a simple example of how blockchain can be applied to the ticketing industry. By using the Ethereum blockchain we are able to write a decentralized application that allows the seller to easily validate identities and charge for the tickets. The app allows the buyer to quickly get their ticket and know that it's authentic. 
-
-## The Stack
-  - The smart contract was written in Solidity, the language of choice for the Ethereum Virtual Machine.
-  - Back-end was written using Node.js and the Express framework.
-  - Front-end was written with React in EMCAScript 6 leveraging the Stage Two preset as well.
-
-## How Does Everything Work?
-Ethereum has three main blockchain networks: Homestead, Modern, and Testrpc. Homestead is the real blockchain, Modern is the test network, and finally the Testrpc is a private blockchain that can be ran locally for testing. This project uses the Testrpc to run a local blockchain. Once the smart contract is deployed onto the Testrpc, we can create a simply REST API that allows our front-end to interact with the contract through Express.
-
-## Setting Up The Testrpc And Deploying The Contract
   1. Make sure you have NPM and Git installed
   2. Install the Yarn package manager by running `npm install -global yarn` (Note that npm will work fine if you prefer it)
   3. Clone the repo by using `git clone (insert repo here)`
